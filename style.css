@@ -3,7 +3,10 @@
 *{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
-    margin: 0px;
+    margin-right: 2px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 /* --------------------Header Section start------------------ */
@@ -46,7 +49,7 @@
 .head-img, .offer-photo{
  
     height: 500px;
-    padding-top: 30px;
+    padding-top: 28px;
     padding-right: 40px;
     margin-left: 90px;
 }
@@ -56,7 +59,7 @@
 /* -----------------------------------Main Section Start-------------------------- */
 
 
-.featured-title, .insta-title{
+.featured-title, .insta-title, .deal-title{
     color: #272727;
     text-align: center;
     font-family: Lato;
@@ -64,7 +67,7 @@
     font-weight: 800;
     padding-top: 80px;
 }
-.featured-description, .insta-description{
+.featured-description, .insta-description, .deal-description{
    margin-left: 375px;
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
@@ -83,7 +86,7 @@
     width: 300px;
     height: 400px; 
     padding-top: 80px;
-    padding-bottom: 29px; 
+    padding-bottom: 38px; 
     padding-right: 50px;
     padding-left: 50px;
     border-radius: 300px 300px 0px 0px;
@@ -96,7 +99,7 @@
     width: 300px;
     height: 400px; 
     padding-top: 80px;
-    padding-bottom: 29px; 
+    padding-bottom: 42px; 
     padding-right: 50px;
     padding-left: 50px;
     border-radius: 300px 300px 0px 0px;
@@ -108,7 +111,7 @@
     width: 300px;
     height: 400px; 
     padding-top: 40px;
-    padding-bottom: 70px; 
+    padding-bottom: 82px; 
     padding-right: 50px;
     padding-left: 50px;
     border-radius: 300px 300px 0px 0px;
@@ -179,3 +182,69 @@
 }
 /* ---------------------------instagram section End---------------------------------- */
 
+/* ----------------------------Get The Latest Deals section style-------------------- */
+
+.bg-img{
+    background-image: url("images/Rectangle\ 9.png");
+    height: 440px;
+    margin: 0px 50px 50px 50px;
+    margin-right: 80px;
+    border-radius: 5px;
+}
+
+.form{
+    text-align: center;
+    margin: 100px;
+}
+#email{
+    width: 600px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 100; 
+    border-radius: 8px;
+    background: #FFF; 
+    border: none;
+}
+#btn{
+    width: 150px;
+    height: 51px;
+    font-size: 20px;
+    font-weight: 100;  
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+}
+/* -------------------------- Get The Latest Deals section style end-------------------------*/
+
+/* ----------------------------Footer section style----------------------- */
+
+
+.footer-section{
+    height: 400px;
+    background: #111010;
+}
+.flower{
+    color: #E55473;
+}
+.footer-title{
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 80px;
+}
+.footer-description{
+    margin-left: 375px;
+    color: #FFFFFFE5;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    width: 594px;
+}
+.footer-copyright{
+    color: #FFFFFFE5;
+    font-size: 18px;
+    font-family: Lato;
+    margin-left: 475px;
+}
