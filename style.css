@@ -1,0 +1,142 @@
+/* ------------------------Common shared styles--------------------- */
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+/* --------------------Header Section start------------------ */
+
+.head{
+   border:none;
+    height: 550px; 
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    padding-bottom: 20px;
+    padding-top: 20px; 
+    justify-content: space-between;
+    align-items: center;
+}
+.head-title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 65px;
+    padding-left: 130px;
+}
+.head-description{
+    width: 50%;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    padding-left: 130px;
+}
+
+.btn{
+    border: none;
+    border-radius: 5px;
+    background: #E55473;
+    color: white;
+    width: 130px;
+    height: 50px;
+    margin-left: 130px;
+    margin-top: 15px;
+    
+}
+.head-img{
+ 
+    height: 500px;
+    padding-top: 30px;
+    padding-right: 40px;
+    margin-left: 90px;
+}
+
+/* ----------------------------Header section End---------------------- */
+
+/* -----------------------------------Main Section Start-------------------------- */
+
+
+.featured-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 80px;
+}
+.featured-description{
+   margin-left: 375px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    width: 594px;
+
+}
+.featured-section{
+    display: flex;
+    padding: 50px;
+
+}
+
+.featured-img-1{
+    width: 300px;
+    height: 400px; 
+    padding-top: 80px;
+    padding-bottom: 29px; 
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    align-items: center;
+    
+    margin: 10px;
+}
+.featured-img-2{
+    width: 300px;
+    height: 400px; 
+    padding-top: 80px;
+    padding-bottom: 29px; 
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    align-items: center;
+    margin: 10px;
+}
+.featured-img-3{
+    width: 300px;
+    height: 400px; 
+    padding-top: 40px;
+    padding-bottom: 70px; 
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    align-items: center;
+    margin: 10px;
+    
+}
+.figcaption-1{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    text-decoration-line: underline;
+}
+.figcaption-2{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    padding-top: 55px;
+    text-decoration-line: underline;
+}
+.figcaption-3{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    text-decoration-line: underline;
+   
+}
