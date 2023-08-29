@@ -140,3 +140,22 @@
     text-decoration-line: underline;
    
 }
+/* ----------------------------DFC styles start---------------------- */
+
+.icon-dfc{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 320px;
+    margin: 50px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    
+}
+.icon{
+    padding-left: 80px;
+}
+.c-caption{
+    padding-left: 50px;
+}
+/* ----------------------------DFC style end----------------------------- */
