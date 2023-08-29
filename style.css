@@ -8,7 +8,7 @@
 
 /* --------------------Header Section start------------------ */
 
-.head{
+.head, .offer-img{
    border:none;
     height: 550px; 
     background: rgba(229, 84, 115, 0.10);
@@ -18,13 +18,13 @@
     justify-content: space-between;
     align-items: center;
 }
-.head-title{
+.head-title, .offer-title{
     color: #272727;
     font-family: Lato;
     font-size: 65px;
     padding-left: 130px;
 }
-.head-description{
+.head-description, .offer-description{
     width: 50%;
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
@@ -43,7 +43,7 @@
     margin-top: 15px;
     
 }
-.head-img{
+.head-img, .offer-photo{
  
     height: 500px;
     padding-top: 30px;
@@ -56,7 +56,7 @@
 /* -----------------------------------Main Section Start-------------------------- */
 
 
-.featured-title{
+.featured-title, .insta-title{
     color: #272727;
     text-align: center;
     font-family: Lato;
@@ -64,7 +64,7 @@
     font-weight: 800;
     padding-top: 80px;
 }
-.featured-description{
+.featured-description, .insta-description{
    margin-left: 375px;
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
@@ -159,3 +159,23 @@
     padding-left: 50px;
 }
 /* ----------------------------DFC style end----------------------------- */
+
+
+/* -----------------------------------instagram section start--------------------------- */
+
+
+
+.insta-section{
+    display: flex;
+    padding-top: 50px;
+    width: 342px;
+    height: 396px;
+    
+}
+.insta-img{
+    margin: 2px;
+    height: 342px; 
+    padding-left: 25px;
+}
+/* ---------------------------instagram section End---------------------------------- */
+
